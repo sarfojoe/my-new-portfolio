@@ -7,7 +7,7 @@
 .greeting {
   font-size: 100px;
   color: #f2f2f2;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1.1;
 }
 
@@ -17,13 +17,13 @@
 
 .subHeading {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   color: #f2f2f2;
 }
 
 .ctaBtn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #b7d437;
   font-weight: 400;
   border: none;
