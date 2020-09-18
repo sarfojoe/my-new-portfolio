@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project-info {
+    background-color: #ffffff;
+}
+
+.project-info h2 {
+    font-size: 2.625rem;
+    width: 100%;
+    margin: 2.5rem 0;
+    color: #26291A;
+}
+
+.project-info h3 {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.project-info p {
+    flex: 2;
+    margin: 0 2rem 0 2.5rem;
+}

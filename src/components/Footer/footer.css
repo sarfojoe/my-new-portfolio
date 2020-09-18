@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#footer {
+    background-color: #26291A;
+    padding-top: 40px;
+}
+
+.divider {
+    color: #B7D437;
+    background-color: #B7D437;
+}
+
+.socialLink {
+    color: #f2f2f2;
+}
+
+.socialLink:first-child {
+    margin-right: 10px;
+}
+
+.socialLink:last-child {
+    margin-left: 10px;
+}
+
+.socialLink:hover {
+    color: #B7D437;
+}
+
+.credits {
+    color: #B7D437;
+    margin-top: 6px !important;
+}
+
+.credits:hover {
+    color: #B7D437;
+}
+
+.copyright {
+    margin-top: 4px;
+}

@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #26291A;
+    padding: 0 20px;
+}
+
+
+/* For smaller screens */
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 0 10px;
+    }
+}

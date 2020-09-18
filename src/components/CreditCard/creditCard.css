@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.credit-link {
+    color: #f2f2f2;
+}
+
+.credit-link:hover {
+    text-decoration: none;
+    color: #B7D437;
+}

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navToggle {
+    top: 60px;
+    background-color: #26291A;
+    opacity: 0.8;
+}
+
+#navToggle a {
+    color: #f2f2f2;
+}
+
+#navToggle a:hover {
+    color: #B7D437;
+}

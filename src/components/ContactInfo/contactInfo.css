@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contactInfo {
+    /* max-width: 600px; */
+}
+
+.contactInfo a {
+    color: #B7D437;
+}
+
+.contactLabel {
+    margin-bottom: 4px;
+}
+
+.contactDesc {
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.contactIcon {
+    margin-right: 8px;
+}
+
+.uk-divider-small::after {
+    border-top: 1px solid #B7D437;
+}

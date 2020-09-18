@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutWrapper {
+  background-color: #918d8d;
+  position: relative;
+  padding-top: calc(10vw + 200px);
+  padding-bottom: 200px;
+}
+
+.svg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10vw;
+  fill: #26291a;
+}
+
+.aboutWrapper h2 {
+  color: #26291a;
+}
+
+.aboutWrapper span {
+  color: #848586;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+.aboutMeText {
+  color: #26291a;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  /* .aboutWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    } */
+}

@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* padding: 40px 100px; */
+    background-color: #26291A;
+    min-height: calc(100vh - 80px);
+}
+
+.contactWrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.portfolio-wrapper,
+.contact-wrapper,
+.skills-wrapper,
+.heading-wrapper {
+    padding: 0 100px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    color: #f2f2f2;
+    margin-bottom: 40px;
+}
+
+.portfolio-cards {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    grid-auto-rows: 1fr;
+}
+
+
+/* For medium-sized screens */
+@media only screen and (max-width: 992px) {
+    .portfolio-wrapper,
+    .contact-wrapper,
+    .skills-wrapper,
+    .heading-wrapper {
+        padding: 20px;
+    }
+
+    .portfolio-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+    }
+}

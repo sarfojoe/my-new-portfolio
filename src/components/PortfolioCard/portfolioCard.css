@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.portfolioCard {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    min-width: 225px;
+}
+
+.demoLink {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: #B7D437;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    letter-spacing: 1.2px;
+    color: #26291A;
+}
+
+.demoLink:hover {
+    background-color: rgb(157, 187, 21);
+    color: #26291A;
+    text-decoration: none;
+}
+
+.repoLink {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #B7D437;
+    letter-spacing: 1.2px;
+    color: #26291A;
+    margin-right: 6px;
+}
+
+.repoLink:hover {
+    background-color: rgb(157, 187, 21);
+    color: #26291A;
+    text-decoration: none;
+}
+
+.uk-card-media-top {
+    border-bottom: 1px solid #B7D437;
+}
+
+.portfolio-card-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.portfolio-card-img-container img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}

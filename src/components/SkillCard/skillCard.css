@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.skill-card {
+    border: 1px solid #B7D437;
+    padding: 16px 10px !important;
+}
+
+.skill-title {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.skill-icon {
+    height: 40px;
+    width: auto;
+}

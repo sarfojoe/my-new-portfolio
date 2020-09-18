@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.brainstorm {
+    padding: 2.5rem 6.25rem;
+    width: 80vw;
+    border: 2px solid #D1D58E;
+    color: #575B48;
+}
+
+.brainstorm ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.brainstorm .description {
+    margin-bottom: 1.75rem;
+}
+
+.brainstorm .description h5 {
+    font-size: 1.375rem;
+    margin-bottom: 0.5rem;
+}
+
+.brainstorm .description ul>li::before {
+    content: '\2014\a0  ';
+}
+
+.word {
+    margin-bottom: 1rem;
+}
+
+.word h6 {
+    font-size: 1.25rem;
+    position: relative;
+    padding-bottom: 0.625rem;
+    margin-bottom: 0.5rem;
+}
+
+.word h6::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #D1D58E;
+    position: absolute;
+    bottom: 0;
+}
+
+.possible-combos {
+    border: 2px solid #D1D58E;
+    padding: 1.25rem;
+}
+
+
+
+
+
+/* For medium-sized screens */
+@media only screen and (max-width: 992px) {
+    .brainstorm {
+        padding: 2rem;
+    }
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .brainstorm {
+        padding: 1rem;
+        width: 90vw;
+    }
+}
