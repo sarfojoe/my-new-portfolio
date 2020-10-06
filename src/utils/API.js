@@ -2,7 +2,7 @@ import socialNetwork from "../assets/images/social-network.png";
 import movieLibrary from "../assets/images/movie-library.png";
 import travelDaries from "../assets/images/travel-diaries.png";
 import recipeApp from "../assets/images/recipe1.png";
-//import employeeTracker from '../assets/images/employeeTracker.jpg'
+
 import covid19 from "../assets/images/covid-19tracker.png";
 import nodejsLogo from "../assets/images/nodejsLogo.svg";
 import mongodbLogo from "../assets/images/mongodbLogo.svg";
@@ -12,10 +12,6 @@ import jqueryLogo from "../assets/images/jqueryLogo.svg";
 import htmlLogo from "../assets/images/htmlLogo.svg";
 import cssLogo from "../assets/images/cssLogo.svg";
 import javascriptLogo from "../assets/images/javascriptLogo.svg";
-// import indigoBallBg from '../assets/images/gdproj_indigoBall_bg.jpg'
-// import hyperMockBg from '../assets/images/gdproj_hyperMock_bg.jpg'
-// import otherLogosBg from '../assets/images/gdproj_otherLogos_bg.jpg'
-// import otherPrintsBg from '../assets/images/gdproj_otherPrints_bg.jpg'
 
 const projects = [
   {
@@ -58,41 +54,7 @@ const projects = [
     githubUrl: "https://github.com/sarfojoe/traveldiaries",
     deployedUrl: "https://traveldiaries-fd7aa.web.app/",
   },
-  //   {
-  //     title: 'Employee Tracker',
-  //     description:
-  //       'A command-line interface app for tracking employees within a company.',
-  //     imageUrl: employeeTracker,
-  //     githubUrl: 'https://github.com/aroblesgalit/12-Employee-Tracker'
-  //   }
 ];
-
-// const graphicDesignProjects = [
-//   {
-//     title: 'Indigo Ball',
-//     type: ['Logo Design', 'Print'],
-//     image: indigoBallBg,
-//     link: '/indigo-ball'
-//   },
-//   {
-//     title: 'HyperMock',
-//     type: ['Logo Design', 'UI Design'],
-//     image: hyperMockBg,
-//     link: '/hypermock'
-//   },
-//   {
-//     title: 'Other Logos',
-//     type: ['Logo Designs'],
-//     image: otherLogosBg,
-//     link: '/other-logos'
-//   },
-//   {
-//     title: 'Other Print Designs',
-//     type: ['Print Designs'],
-//     image: otherPrintsBg,
-//     link: 'https://www.alvingalit.com/'
-//   }
-// ]
 
 const skills = [
   {
@@ -216,9 +178,4 @@ export default {
       resolve(credits);
     });
   },
-  //   getGDProjects: function () {
-  //     return new Promise(resolve => {
-  //       resolve(graphicDesignProjects)
-  //     })
-  //   }
 };

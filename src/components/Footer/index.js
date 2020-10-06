@@ -29,7 +29,9 @@ function Footer() {
         <Link to="/credits" className="credits uk-text-small uk-margin-top">
           Credits
         </Link>
-        <p className="copyright uk-text-small">© 2020 Joseph Boadi</p>
+        <p className="copyright uk-text-small">
+          &copy;{new Date().getFullYear()} Joseph Boadi | All rights reserved
+        </p>
       </div>
     </footer>
   );
