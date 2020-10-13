@@ -2,8 +2,7 @@ import socialNetwork from "../assets/images/social-network.png";
 import movieLibrary from "../assets/images/movie-library.png";
 import travelDaries from "../assets/images/travel-diaries.png";
 import recipeApp from "../assets/images/recipe1.png";
-
-import covid19 from "../assets/images/covid-19tracker.png";
+import covid19 from "../assets/images/covid19.png";
 import nodejsLogo from "../assets/images/nodejsLogo.svg";
 import mongodbLogo from "../assets/images/mongodbLogo.svg";
 import mysqlLogo from "../assets/images/mysqlLogo.svg";
