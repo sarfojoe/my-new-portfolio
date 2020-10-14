@@ -38,11 +38,11 @@ function ContactInfo () {
       <span className='contactDesc uk-flex uk-flex-middle'>
         <span className='contactIcon' uk-icon='icon: github'></span>
         <a
-          href='https://gitconnected.com/v1/portfolio/sarfojoe'
+          href='https://gitconnected.com/sarfojoe'
           target='_blank'
           rel='noopener noreferrer'
         >
-          gitconnected.com/v1/portfolio/sarfojoe
+          https://gitconnected.com/sarfojoe
         </a>
       </span>
       <hr className='uk-divider-small' />
